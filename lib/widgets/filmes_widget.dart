@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-// ignore: non_constant_identifier_names
-Widget ListadeFilmes(String sessao, List listadefilmes) {
+Widget listadeFilmes(String sessao, List listadefilmes) {
   return Container(
     padding: EdgeInsets.only(
       bottom: 20,
@@ -10,12 +9,11 @@ Widget ListadeFilmes(String sessao, List listadefilmes) {
       children: [
         Container(
           //LEGENDA DE BANERS
-          margin: const EdgeInsets.only(
+          margin: EdgeInsets.only(
             left: 20.0,
             bottom: 7.0,
           ),
-          alignment: Alignment
-              .centerLeft, // Align however you like (i.e .centerRight, centerLeft)
+          alignment: Alignment.centerLeft,
           child: Text(sessao,
               style: TextStyle(
                 color: Colors.white.withOpacity(0.8),
@@ -30,7 +28,7 @@ Widget ListadeFilmes(String sessao, List listadefilmes) {
             children: <Widget>[
               SizedBox(width: 15),
               for (int i = 0; i < listadefilmes.length; i++)
-                MovieBanner(listadefilmes[i]),
+                movieBanner(listadefilmes[i]),
               SizedBox(width: 15),
             ],
           ),
@@ -40,12 +38,12 @@ Widget ListadeFilmes(String sessao, List listadefilmes) {
   );
 }
 
-Widget MovieBanner(String imagePath) {
+Widget movieBanner(String imagePath) {
   return Container(
     width: 105.0,
-    margin: const EdgeInsets.symmetric(horizontal: 5.0),
+    margin: EdgeInsets.symmetric(horizontal: 5.0),
     decoration: BoxDecoration(
-      borderRadius: new BorderRadius.circular(5.0),
+      borderRadius: BorderRadius.circular(5.0),
       image: DecorationImage(
         image: NetworkImage(imagePath),
         fit: BoxFit.cover,

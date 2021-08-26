@@ -18,8 +18,8 @@ class _HomeState extends State<Home> {
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            const Color(0xFF2d3246),
-            const Color(0xFF1a1c29),
+            colorFromHex('2d3246'),
+            colorFromHex('1a1c29'),
           ],
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
@@ -30,10 +30,10 @@ class _HomeState extends State<Home> {
           children: [
             DestaquesHome(),
             ListaDeMarcas(),
-            ListadeFilmes('Universo Cinematográfico Marvel', imgMarvel),
-            ListadeFilmes('Recomendado pra Você', imgRecomendacoes),
-            ListadeFilmes('Novidades Disney+', imgNovidades),
-            ListadeFilmes('Filmes e Séries de Star Wars', imgStarWars),
+            listadeFilmes('Universo Cinematográfico Marvel', imgMarvel),
+            listadeFilmes('Recomendado pra Você', imgRecomendacoes),
+            listadeFilmes('Novidades Disney+', imgNovidades),
+            listadeFilmes('Filmes e Séries de Star Wars', imgStarWars),
           ],
         ),
       ),

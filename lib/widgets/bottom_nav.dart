@@ -1,7 +1,7 @@
-import 'package:disneyplusdemo/screens/downloads.dart';
-import 'package:disneyplusdemo/screens/home.dart';
-import 'package:disneyplusdemo/screens/profile.dart';
-import 'package:disneyplusdemo/screens/search.dart';
+import 'package:disneyplusdemo/screens/download_screen.dart';
+import 'package:disneyplusdemo/screens/home_screen.dart';
+import 'package:disneyplusdemo/screens/profile_screen.dart';
+import 'package:disneyplusdemo/screens/search_screen.dart';
 import 'package:disneyplusdemo/utils/contansts.dart';
 import 'package:flutter/material.dart';
 
@@ -26,7 +26,7 @@ class _MyHomePageState extends State<MyHomePage> {
             height: 50,
           ),
           centerTitle: true,
-          backgroundColor: Color(0xFF2d3246),
+          backgroundColor: colorFromHex('2d3246'),
           elevation: 0.0,
           actions: [
             IconButton(
@@ -52,25 +52,25 @@ class _MyHomePageState extends State<MyHomePage> {
           onTap: (index) {
             bottomTapped(index);
           },
-          items: buildBottomNavBarItems(),
+          items: buildBottomNavBarItens(),
         ),
       ),
     );
   }
 
-  List<BottomNavigationBarItem> buildBottomNavBarItems() {
+  List<BottomNavigationBarItem> buildBottomNavBarItens() {
     return [
       BottomNavigationBarItem(
-        icon: new Icon(Icons.home),
-        title: new Text('Home'),
+        icon: Icon(Icons.home),
+        title: Text('Home'),
       ),
       BottomNavigationBarItem(
-        icon: new Icon(Icons.search),
-        title: new Text('Search'),
+        icon: Icon(Icons.search),
+        title: Text('Search'),
       ),
       BottomNavigationBarItem(
-        icon: new Icon(Icons.file_download),
-        title: new Text('Downloads'),
+        icon: Icon(Icons.file_download),
+        title: Text('Downloads'),
       ),
       BottomNavigationBarItem(
         icon: Container(

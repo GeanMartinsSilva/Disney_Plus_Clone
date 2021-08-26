@@ -1,3 +1,4 @@
+import 'package:disneyplusdemo/utils/contansts.dart';
 import 'package:flutter/material.dart';
 
 class Downloads extends StatefulWidget {
@@ -14,8 +15,8 @@ class _DownloadsState extends State<Downloads> {
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            const Color(0xFF2d3246),
-            const Color(0xFF1a1c29),
+            colorFromHex('2d3246'),
+            colorFromHex('1a1c29'),
           ],
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
@@ -51,9 +52,6 @@ class _DownloadsState extends State<Downloads> {
               'aparecerão aqui',
               style: TextStyle(color: Colors.white, fontSize: 18),
             ),
-            //ICONE GRANDE
-            //TEXT
-            //TEXT
           ],
         ),
       ),

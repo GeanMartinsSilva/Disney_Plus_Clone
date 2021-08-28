@@ -1,7 +1,7 @@
-import 'package:disneyplusdemo/utils/contansts.dart';
-import 'package:disneyplusdemo/widgets/destaque_widget.dart';
-import 'package:disneyplusdemo/widgets/filmes_widget.dart';
-import 'package:disneyplusdemo/widgets/marcas_widget.dart';
+import 'package:disneyplusdemo/app/utils/contansts.dart';
+import 'package:disneyplusdemo/app/widgets/destaque_widget.dart';
+import 'package:disneyplusdemo/app/widgets/filmes_widget.dart';
+import 'package:disneyplusdemo/app/widgets/marcas_widget.dart';
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {

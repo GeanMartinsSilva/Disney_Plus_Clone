@@ -1,5 +1,5 @@
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:disneyplusdemo/utils/contansts.dart';
+import 'package:disneyplusdemo/app/utils/contansts.dart';
 import 'package:flutter/material.dart';
 
 final List<Widget> imageSliders = imgDestaques

@@ -1,8 +1,8 @@
-import 'package:disneyplusdemo/screens/download_screen.dart';
-import 'package:disneyplusdemo/screens/home_screen.dart';
-import 'package:disneyplusdemo/screens/profile_screen.dart';
-import 'package:disneyplusdemo/screens/search_screen.dart';
-import 'package:disneyplusdemo/utils/contansts.dart';
+import 'package:disneyplusdemo/app/screens/download_screen.dart';
+import 'package:disneyplusdemo/app/screens/home_screen.dart';
+import 'package:disneyplusdemo/app/screens/profile_screen.dart';
+import 'package:disneyplusdemo/app/screens/search_screen.dart';
+import 'package:disneyplusdemo/app/utils/contansts.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {

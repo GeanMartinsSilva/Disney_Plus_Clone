@@ -1,16 +1,32 @@
-# disneyplusdemo
+# Disney Plus Clone
+Aplicativo criado para estudo de novas funcionalidades do Flutter utilizando o App da Disney+ como base.
 
-A new Flutter project.
+***
 
-## Getting Started
+ <p align="center">
+ <img  width="300" height="625" src="assets/to_readme/disney1.png">
+ <img  width="300" height="625" src="assets/to_readme/disney2.png">
+ <img  width="300" height="625" src="assets/to_readme/disney3.png">
+ <p/>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center">
+  <a href="https://drive.google.com/u/0/uc?id=1jSAwYIXhdV6nVcZsUPWJvUVR8XKdggEj&export=download">Download Disney+ Clone App</a>
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Download do Aplicativo (APK)
+Faça o download do arquivo APK do app no Google Drive e instale-o em seu smartphone para teste.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## O que aprendi / utilizei neste projeto
+
+* Melhoria na organização e arquitetura
+* Utilização de widgets dinâmicos.
+* Metodos de lista como `.map` `.toList`.
+* Componentização
+* Utilização de Carrosel Slider.
+* Utilização de Positioned.
+* Utilização de BottomNavigationBar.
+* Utilização de ListView.builder.
+* Utilização da LinearGradient.
+* Utilização de Image Network.
+* Utilização de SafeArea.
